@@ -7,6 +7,14 @@
       "USE_NPM_INSTALL": {
       "description": "Use NPM install",
       "value": "true"
-    }
+      },
+      "PGSSLMODE": {
+      "description": "PGSSLMODE",
+      "value": "no-verify"
+      },
+      "NODE_TLS_REJECT_UNAUTHORIZED": {
+      "description": "NODE_TLS_REJECT_UNAUTHORIZED",
+      "value": "0"
+      }
     }
 }
